@@ -55,3 +55,42 @@ The next activities will be to:
 ## Disclaimer
 
 This document is part of an anonymized cybersecurity GRC learning project. It is not a formal audit or an official assessment of the organization. No real beneficiary information, credentials, contracts or confidential records are included.
+
+## 6. Preliminary CIA Classification — Asset A-002
+
+### Asset
+
+**Asset ID:** A-002  
+**Asset Name:** Beneficiary Information  
+**Asset Type:** Sensitive Personal Information  
+**Assessment Status:** Preliminary — Requires Validation
+
+### CIA Assessment
+
+| Security Property | Preliminary Classification | Business Rationale |
+|---|---|---|
+| Confidentiality | High | Unauthorized disclosure could affect the privacy of child beneficiaries and their families. Access should be limited to authorized individuals with a legitimate business need. |
+| Integrity | High | Unauthorized or incorrect changes could affect the accuracy of beneficiary information, follow-up activities and related decisions. |
+| Availability | High | If the information is unavailable when required, beneficiary-related activities and contractual obligations could be disrupted. |
+
+### Assessment Rationale
+
+The preliminary assessment assigns a high level to confidentiality, integrity and availability because of the potential consequences associated with unauthorized disclosure, inaccurate information or loss of access.
+
+These classifications represent an initial business-impact assessment for learning purposes. They have not been validated through a formal assessment with the organization.
+
+### Information Requiring Validation
+
+- Types of beneficiary information processed.
+- Business processes that depend on this information.
+- Authorized roles and access requirements.
+- Storage locations and systems used.
+- Existing protection, backup and recovery measures.
+- Applicable contractual and data protection requirements.
+- Business impact and acceptable downtime if the information becomes unavailable.
+
+### Next Step
+
+Validate the preliminary classification and use the results to support the subsequent risk assessment.
+
+**Important:** A high CIA classification does not, by itself, confirm that a vulnerability exists or that a security control is missing.
