@@ -94,3 +94,43 @@ These classifications represent an initial business-impact assessment for learni
 Validate the preliminary classification and use the results to support the subsequent risk assessment.
 
 **Important:** A high CIA classification does not, by itself, confirm that a vulnerability exists or that a security control is missing.
+
+## 7. Preliminary CIA Classification — Asset A-003
+
+### Asset Identification
+
+- **Asset ID:** A-003
+- **Asset Name:** Financial Information and Invoices
+- **Asset Type:** Financial and Business Information
+- **Assessment Status:** Preliminary — Requires Validation
+
+### CIA Assessment
+
+| Security Property | Preliminary Classification | Business Rationale |
+|---|---|---|
+| Confidentiality | High | Unauthorized disclosure of financial information, such as contractual values, invoice details or employee payment information, could affect business confidentiality, privacy or commercial relationships, depending on the information exposed. |
+| Integrity | High | Unauthorized or incorrect changes to invoices or financial records could create inconsistencies in billing, payments, accounting records or financial reconciliation. Depending on the circumstances, errors could also affect contractual or tax-related obligations. |
+| Availability | High | Unavailability of financial information when needed for billing, reconciliation or reporting to the contracting entity could delay administrative activities and affect operational continuity or business confidence. |
+
+### Assessment Rationale
+
+The preliminary assessment assigns a high level to confidentiality, integrity and availability because of the potential business consequences associated with unauthorized disclosure, inaccurate financial records or loss of access to essential information.
+
+These classifications represent an initial business-impact assessment for learning purposes. They have not been formally validated with the organization. Potential regulatory or financial consequences would depend on the specific circumstances and applicable requirements.
+
+### Information Requiring Validation
+
+- Types of financial information and invoices processed.
+- Business processes that depend on these records.
+- Storage locations, systems and access permissions.
+- Roles authorized to create, modify, approve and access invoices.
+- Existing activity logs and review procedures.
+- Backup, recovery and business continuity arrangements.
+- Applicable contractual, accounting and tax-related requirements.
+- Potential business impact and acceptable downtime if the information becomes unavailable.
+
+### Next Step
+
+Validate the preliminary CIA classification, identify the relevant information assets and processes, and use verified information to support the subsequent risk assessment.
+
+**Important:** A high CIA classification does not, by itself, confirm that a vulnerability exists, that a security control is missing or that an incident has occurred.
