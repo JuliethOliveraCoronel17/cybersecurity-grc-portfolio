@@ -23,3 +23,16 @@ The available records may not show exactly which invoice fields changed or their
 Further testing and corroborating evidence may therefore be necessary before concluding that the control is effective.
 
 **Scope note:** This is a learning exercise based on a hypothetical scenario. No actual company system or audit evidence has been examined.
+
+### 4. Sampling Approach — Planned Test
+
+### Sampling Approach — C-03 Invoice Modification Logging
+
+- **Population:** 100 hypothetical invoice modification records.
+- **Sample size:** 10 records.
+- **Selection method:** Random selection.
+- **Purpose:** To practice assessing whether selected invoice modification records contain sufficient information to support investigation.
+- **Rationale:** Ten records provide a manageable sample for an educational exercise and allow the reviewer to practice applying the defined test criteria.
+- **Limitation:** This is a non-statistical educational exercise. The sample size does not establish statistical representativeness or support a conclusion that all records, or the control as a whole, are effective.
+
+**Scope note:** The population and records are fictitious. No actual company records have been examined. Additionally, this is an educational simulation, and the test has not been performed yet.
